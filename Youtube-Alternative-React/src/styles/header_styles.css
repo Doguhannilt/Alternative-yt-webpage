@@ -118,7 +118,7 @@
     height: 32px;
     border-radius: 50%;
     padding-left: 20px;
-    margin-top:10px;
+    margin-top:20px;
     cursor: pointer;
 }
 
@@ -126,3 +126,46 @@
     opacity:0.7;
     
   }
+
+.profile-picture-settings{
+    border-radius: 100%;
+    height: 36px;
+    margin-left: 10px;
+    margin-top:13px;
+    cursor: pointer;
+  }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    position: absolute;
+    top: 110%; 
+    left: 10;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display:block;
+  }
+  
+.dropdown-item{
+    margin-top: 0px;
+    top:0px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
+    color:gray
+}
